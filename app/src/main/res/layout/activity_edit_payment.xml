@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic001"
+    tools:context=".EditPayment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/edst1"
+                    android:layout_width="229dp"
+                    android:layout_height="32dp"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginRight="50dp"
+                    android:text="@string/edst1"
+                    android:textColor="#100F0F"
+                    android:textSize="24sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.487"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/edst2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/edst2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.168"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/edst1" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="146dp"
+                    android:layout_height="73dp"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="100dp"
+                    android:layout_marginBottom="5dp"
+                    app:layout_constraintBottom_toTopOf="@+id/edHolderName"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.492"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/edst2"
+                    app:srcCompat="@drawable/pay5" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="61dp">
+
+                    <Button
+                        android:id="@+id/edBtnSch"
+                        android:layout_width="93dp"
+                        android:layout_height="42dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="253dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginEnd="45dp"
+                        android:background="@drawable/login_edit_background"
+                        android:text="@string/edpsearch"
+                        android:textColor="#FFFFFF"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.699"
+                        app:layout_constraintStart_toEndOf="@+id/edHolderName" />
+
+                    <EditText
+                        android:id="@+id/edHolderName"
+                        android:layout_width="213dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="22dp"
+                        android:layout_marginLeft="56dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginEnd="156dp"
+                        android:background="@drawable/place_background"
+                        android:drawableLeft="@drawable/ic_baseline_account_circle_24"
+                        android:drawablePadding="10dp"
+                        android:ems="10"
+                        android:hint="@string/edholder"
+                        android:inputType="textPersonName"
+                        android:padding="10dp"
+                        app:layout_constraintStart_toStartOf="parent" />
+                </RelativeLayout>
+
+
+                <EditText
+                    android:id="@+id/edCnum"
+                    android:layout_width="298dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/place_background"
+                    android:ems="10"
+                    android:hint="@string/edcnum"
+                    android:inputType="textPersonName"
+                    android:padding="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.404"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/edHolderName" />
+
+
+                <EditText
+                    android:id="@+id/edExdate"
+                    android:layout_width="296dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/place_background"
+                    android:ems="10"
+                    android:hint="@string/eddate"
+                    android:inputType="date"
+                    android:padding="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.404"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/edCnum" />
+
+                <EditText
+                    android:id="@+id/edCvnum"
+                    android:layout_width="297dp"
+                    android:layout_height="44dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/place_background"
+                    android:ems="10"
+                    android:hint="@string/edcv"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.41"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/edExdate" />
+
+                <Button
+                    android:id="@+id/edBtnEdit"
+                    android:layout_width="295dp"
+                    android:layout_height="42dp"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/login_edit_background"
+                    android:backgroundTint="#1e97b6"
+                    android:text="@string/edpbtn"
+                    android:textColor="#FFFFFF"
+                    app:layout_constraintEnd_toStartOf="@+id/edBtnDel"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/edCvnum" />
+
+                <Button
+                    android:id="@+id/btnUpdate"
+                    android:layout_width="300dp"
+                    android:layout_height="48dp"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/login_edit_background"
+                    android:backgroundTint="#1e97b6"
+                    android:text="@string/pedbtn"
+                    android:textColor="#FFFFFF"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/edBtnEdit"
+                    app:layout_constraintTop_toBottomOf="@+id/edCvnum" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
