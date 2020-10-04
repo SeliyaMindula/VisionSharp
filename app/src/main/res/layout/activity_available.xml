@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/pic001">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/docName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="462dp"
+                    android:layout_marginEnd="295dp"
+                    android:layout_marginBottom="250dp"
+                    android:text="@string/dname" />
+
+                <TextView
+                    android:id="@+id/special"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="490dp"
+                    android:layout_marginEnd="288dp"
+                    android:layout_marginBottom="222dp"
+                    android:text="@string/dspec" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="21dp"
+                    android:layout_marginStart="130dp"
+                    android:layout_marginTop="490dp"
+                    android:layout_marginEnd="104dp"
+                    android:layout_marginBottom="262dp"
+                    android:text="@string/docspec" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="22dp"
+                    android:layout_marginStart="77dp"
+                    android:layout_marginTop="463dp"
+                    android:layout_marginEnd="220dp"
+                    android:layout_marginBottom="288dp"
+                    tools:text="@string/docname" />
+
+                <ImageView
+                    android:id="@+id/imageDoc"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="149dp"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginBottom="332dp"
+                    app:srcCompat="@drawable/pict01" />
+
+                <Button
+                    android:id="@+id/bookDoc"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginTop="546dp"
+                    android:layout_marginEnd="51dp"
+                    android:layout_marginBottom="150dp"
+                    android:background="@drawable/login_edit_background"
+                    android:text="@string/btnBook"
+                    android:textColor="#FFFFFF" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
