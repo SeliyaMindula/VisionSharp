@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.visionsharp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".EditSpecs"></activity>
+        <activity android:name=".repairSpec" />
+        <activity android:name=".user_dashbord" />
+        <activity android:name=".Book" />
+        <activity android:name=".EditBook" />
+        <activity android:name=".UpdateFeedback" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".Payment" />
+        <activity android:name=".LoginPage" />
+        <activity android:name=".LastPage" />
+        <activity android:name=".Clinic" />
+        <activity android:name=".FirstPage" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".EditUser" />
+        <activity android:name=".EditPayment" />
+        <activity android:name=".CustomerFeedbacks" />
+        <activity android:name=".Available" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
