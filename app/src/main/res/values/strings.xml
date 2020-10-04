@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">Vision Sharp</string>
+    <string name="login">LOG IN</string>
+    <string name="createacc">Create an account</string>
+    <string name="btnBook">BOOK NOW</string>
+    <string name="dname">Name:</string>Special at:
+    <string name="dspec">Special at:</string>
+    <string name="fed1">Customer Feedback</string>
+    <string name="fed2">Are you satisfy with our service ?</string>
+    <string name="fed3">Rate Us !</string>
+    <string name="fed4">Any thing else !</string>
+    <string name="btnadd">Add</string>
+    <string name="btnview">View</string>
+    <string name="btnSkip">Skip</string>
+    <string name="edst1">Edit Payment Details</string>
+    <string name="edst2">We Accepted</string>
+    <string name="edholder">Card Holder\'s Name</string>
+    <string name="edcnum">Card Number</string>
+    <string name="eddate">Expire Date</string>
+    <string name="edcv">CVV NO</string>
+    <string name="edpbtn">EDIT</string>
+    <string name="pedbtn">DELETE</string>
+    <string name="edpsearch">SEARCH</string>
+    <string name="header1">Edit User Details</string>
+    <string name="eduser">User Name</string>
+    <string name="edsearch">SEARCH</string>
+    <string name="Fname1">First Name</string>
+    <string name="fnameinput">First name</string>
+    <string name="Lname" translatable="false">Last Name</string>
+    <string name="Lastname1">Last Name</string>
+    <string name="Email">Email</string>
+    <string name="emailInput">abc@gmail.com</string>
+    <string name="Phone">Phone Number</string>
+    <string name="phoneinput">0715144989</string>
+    <string name="password">Password</string>
+    <string name="passwordinput">******</string>
+    <string name="cityIn">City</string>
+    <string name="d65btn">DELETE</string>
+    <string name="buttonsub">Submit</string>
+    <string name="thanks">Thank You for getting Our service</string>
+    <string name="home">OK</string>
+    <string name="lusername">User Name</string>
+    <string name="lpassword">Password</string>
+    <string name="lbtn">LOG IN</string>
+    <string name="fpassword">Forgot Password</string>
+    <string name="pays">Payment Details</string>
+    <string name="pays2">We Accepted</string>
+    <string name="holdername">Card Holder\'s Name</string>
+    <string name="crdno">Card Number</string>
+    <string name="exdate">Expire Date</string>
+    <string name="cvvno">CVV NO</string>
+    <string name="ubtn">Update</string>
+    <string name="pay">Pay</string>
+    <string name="search">SEARCH</string>
+    <string name="lable2">"Pick-Up Date "</string>
+    <string name="pDate">MM/DD/YYYY</string>
+    <string name="lable3">Return Date</string>
+    <string name="rDate">MM/DD/YYYY</string>
+    <string name="delete">DELETE</string>
+    <string name="submit">SUBMIT</string>
+    <string name="add">Book Now</string>
+    <string name="header">Create Your Account</string>
+    <string name="uname">User Name</string>
+    <string name="usertxt">User Name</string>
+    <string name="fName">First Name</string>
+    <string name="lName">Last Name</string>
+    <string name="Fname">First Name</string>
+    <string name="city">City</string>
+    <string name="btnsub">SUBMIT</string>
+    <string name="edit">Edit</string>
+    <string name="btnupdt">Update</string>
+    <string name="btndelt">Delete</string>
+    <string name="docname">Doctor Name</string>
+    <string name="docspec">Specialist</string>
+    <string name="feedId">ID</string>
+    <string name="repair_specs">Repair Specs</string>
+    <string name="specs_title">Repair Your Specs</string>
+    <string name="specs">Type of Specs</string>
+
+    <string-array name="docs">
+        <item>Hanna - Dentist</item>
+        <item>Ulrich - Surgent</item>
+        <item>Jonas - Pediatricians</item>
+        <item>Jonas - Ophthalmologist</item>
+
+    </string-array>
+    <string-array name="feedback">
+        <item>Very Satisfied</item>
+        <item>Satisfied</item>
+        <item>Not Satisfied</item>
+    </string-array>
+
+    <string-array name="rating">
+        <item>*</item>
+        <item>**</item>
+        <item>***</item>
+        <item>****</item>
+        <item>*****</item>
+    </string-array>
+
+    <string-array name="specs">
+        <item>Corrective</item>
+        <item>Safety</item>
+        <item>Sunglasses</item>
+        <item>Magnification </item>
+        <item>Anti-glare protection glasses</item>
+    </string-array>
+
+</resources>
